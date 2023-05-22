@@ -85,10 +85,10 @@ Console.WriteLine(n * n);
         Console.Write("Введите число 2: ");
         int n2 = int.Parse(Console.ReadLine()!);
 
-        if (n2 == n1 * n1)
+        if (n1 == n2 * n2)
             Console.WriteLine("Да");
         else
-        Console.WriteLine("Нет");
+            Console.WriteLine("Нет");
         
     // Конец первой задачию
     // У У У У У ррр ррр р р Я Я Я Я 
