@@ -39,6 +39,19 @@ if (a % 2 == 0 )
     Console.WriteLine("Да");
 else
      Console.WriteLine("Нет");
+     
+  /// Вывод четных чисел  ///
+     Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+    
+for (int i = 1; i <= n; i++)
+   if (i % 2 == 0)                // изменяя == на != выведем все нечетные числа
+      Console.Write($"{i}, ");
+      
+      
+      
+      
     
 
 
