@@ -17,3 +17,11 @@ else if (n >= 1000 && n < 9999)
          Console.WriteLine(n / 10 % 10); 
 else
     Console.WriteLine(n / 100 % 10);
+    
+    ///////////////////
+    
+    Console.Clear();
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine()!);
+string str = number.ToString();
+Console.WriteLine(str[2]);
