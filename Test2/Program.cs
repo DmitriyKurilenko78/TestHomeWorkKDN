@@ -122,6 +122,7 @@ List<string>week = new List<string>(){" ","Понедельник","Вторни
     
     //////////////
     
+    
     Console.Clear();
 Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine()!);
