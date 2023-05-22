@@ -101,7 +101,25 @@ if (n == 0)
 Console.WriteLine("Нет такого дня нелели");
 List<string>week = new List<string>(){" ","Понедельник","Вторник","Среда","Четверг", "Пятница", "Суббота", "Воскресенье"};
 Console.WriteLine(week[n]);
+
+
+////////////////////////////
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+while ( n < 0 || n > 7)
+{
+    Console.Write("Вы ошиблись!\nВведите номер дня недели: ");
+    n = int.Parse(Console.ReadLine()!);
+}
+if (n == 0)
+    Console.WriteLine("Нет такого дня нелели");
+List<string>week = new List<string>(){" ","Понедельник","Вторник","Среда","Четверг", "Пятница", "Суббота", "Воскресенье"};
+    Console.WriteLine(week[n]);
+
     // Конец второй задачке.
+    
     
     
     
