@@ -89,8 +89,19 @@ Console.WriteLine(n * n);
             Console.WriteLine("Да");
         else
         Console.WriteLine("Нет");
+        
     // Конец первой задачию
     // У У У У У ррр ррр р р Я Я Я Я 
+    
+   // Вторая задача 
+    Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+if (n == 0)
+Console.WriteLine("Нет такого дня нелели");
+List<string>week = new List<string>(){" ","Понедельник","Вторник","Среда","Четверг", "Пятница", "Суббота", "Воскресенье"};
+Console.WriteLine(week[n]);
+    // Конец второй задачке.
     
     
     
