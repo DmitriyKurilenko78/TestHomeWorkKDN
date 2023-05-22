@@ -77,4 +77,20 @@ Console.Write("Введите число :");
 int n = int.Parse(Console.ReadLine()!);
 Console.WriteLine(n * n);
 
+// Первая задача
+        Console.Clear();
+        Console.Write("Введите число 1: ");
+        int n1 = int.Parse(Console.ReadLine()!);
 
+        Console.Write("Введите число 2: ");
+        int n2 = int.Parse(Console.ReadLine()!);
+
+        if (n2 == n1 * n1)
+            Console.WriteLine("Да");
+        else
+        Console.WriteLine("Нет");
+    // Конец первой задачию
+    // У У У У У ррр ррр р р Я Я Я Я 
+    
+    
+    
