@@ -120,6 +120,15 @@ List<string>week = new List<string>(){" ","Понедельник","Вторни
 
     // Конец второй задачке.
     
+    //////////////
+    
+    Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+    
+for (int i = (-1) * n; i <= n; i++)
+   Console.Write($"{i}, ");
+    
     
     
     
